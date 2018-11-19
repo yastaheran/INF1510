@@ -1,0 +1,34 @@
+Oblig 1 INF1510 yast
+Individuell obligatorisk oppgave: Arduino 1
+1. Tekstoppgaver
+  1.1 Elektrisitet
+    1. Strøm representert som vann.
+    2. Motstand representer som kranen.
+    3. Spenning representert som strømmen i vannet.
+    4. Forholdet mellom vannet, strømmen og kranen representerer elektriske kretser som følger Ohms lov.
+  1.2. Dårlige kretser
+    1. En kortslutning kommer av at man ikke har komponenter i koblingen mellom + og -. Dette kan føre til skade på de elektriske 
+       komponentene, og derfor veldig viktig å unngå.
+    2. En krets uten en form for åpning langs kretsen som gjør at strømmen ikke lenger flyter ordentlig, kalles en åpen krets. 
+       Motsetningen er en lukket krets, som er utviklet
+    3. Krets A - Ja, det er en lukket krets og komponentene er plassert i riktig rekkefølge.
+       Krets B - Ja, det er en lukket krets og strømmen går i riktig retning.
+       Krets C - Nei, kretsen er ikke lukket.
+       Krets D - Ja, det er en lukket krets og komponentene er plassert riktig. På grunn av mangel på resistor vil dette mest 
+        sannsynlig ende med kortslutning.
+       Krets E - Nei, strømmen går i feil i retning og derfor vil ikke LED-pæren lyse.
+  1.3. Analoge og digitale signaler
+    1. Digitale signaler består av kun AV (0 volt) og PÅ (5 volt), mens analoge signaler kan ha mange verdier innenfor et spekter, 
+       der spenningen kommer i varierende mengder (alle verdier mellom 0 og 5 volt).
+    2. En lysbryter bruker digitale signaler, og temperatursensor, piezo og potentiometer bruker analoge signaler.
+  1.4. Loop og blink
+    1. Løkken utfører: Lyste en gang
+    2. Løkken utfører: Lyste en gang
+    3. Løkken utfører: LED-lyset blinker med 1 sekunds mellomrom.
+  1.5. Lese og skrive analoge signaler
+    1. Fra portene A0-A5, og med metoden analogRead() kan man lese verdien fra den spesifiserte analogpinen.
+    2. Fra portene 3, 5, 6, 9, 10, 11, og med metoden analogWrite() kan man sende ut analoge signaler.
+  1.7. Lyd
+    1. SparkFun mp3 Player Shield.
+    2. I SparkFun mp3 Player Shield kan man lagre musikkfiler på en micro SD-kort, og dermed kan man hente og spille av lyderfiler 
+       fra SD-kortet.
